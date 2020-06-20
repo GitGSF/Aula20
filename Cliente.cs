@@ -2,15 +2,18 @@ namespace Aula20
 {
     public class Cliente
     {
-        public string Nome { get; set; }
-        protected string EnderecoAtual { get; set; }
+        public string NomeCliente { get; set; }
+        public string Endereco { get; set; }
         public string Pedido { get; set; }
 
-        public string MostrarDados(string _nome, string _enderecoAtual){
-            this.Nome = _nome;
-            this.EnderecoAtual = _enderecoAtual;
+        public Cliente(string _nome){
+            this.NomeCliente = _nome;
+        }
+        
+        public string MostrarDados(){
+            return $"Cliente : {NomeCliente} \nEndereço : {Endereco} \n";  
 
-            return $"Nome do cliente: {_nome}\nEndereço do cliente: {_enderecoAtual}";
+        
         }
         public void FazerPedido(){
 

@@ -5,15 +5,13 @@ namespace Aula20
         public string nomeFantasia {get; set ;}
         public string endereco { get; set; }
 
-        public void MostrarDados()
-        {}
-        public string MostrarDados (string _nomeFantasia, string _endereco){
-           this.nomeFantasia = _nomeFantasia;
-           this.endereco = _endereco;
+        public Restaurante(string _nome){
+            this.nomeFantasia = _nome;
+        }
 
-           return $"Nome do restaurante: {_nomeFantasia}\nEndereço do restaurante: {_endereco}";
-        
-             
+        public string MostrarDados(){
+           return $"Nome do restaurante : {nomeFantasia} \nEndereco : {endereco}";
+     
         }
     }
 }

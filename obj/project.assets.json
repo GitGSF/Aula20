@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dark_Cheedar\\Desktop\\Aula20\\Aula20.csproj",
+      "projectUniqueName": "C:\\Users\\Dark_Cheedar\\Desktop\\SENAI\\Trabalhos\\Aula20\\Aula20.csproj",
       "projectName": "Aula20",
-      "projectPath": "C:\\Users\\Dark_Cheedar\\Desktop\\Aula20\\Aula20.csproj",
+      "projectPath": "C:\\Users\\Dark_Cheedar\\Desktop\\SENAI\\Trabalhos\\Aula20\\Aula20.csproj",
       "packagesPath": "C:\\Users\\Dark_Cheedar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dark_Cheedar\\Desktop\\Aula20\\obj\\",
+      "outputPath": "C:\\Users\\Dark_Cheedar\\Desktop\\SENAI\\Trabalhos\\Aula20\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dark_Cheedar\\AppData\\Roaming\\NuGet\\NuGet.Config"

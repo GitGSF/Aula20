@@ -6,21 +6,21 @@ namespace Aula20
     {
         static void Main(string[] args)
         {
-            Cliente Gabriel = new Cliente();
-            Restaurante restaurante = new Restaurante();
+            Cliente Gabriel = new Cliente("Gabriel");
+            Restaurante restaurante = new Restaurante("Fulano123");
             Pedido pedido = new Pedido();
+            
+            //Cliente
+            Gabriel.Endereco = "Americanopolis";
+            System.Console.WriteLine(Gabriel.MostrarDados());
 
-            Console.WriteLine("Cliente: ");
-            Console.WriteLine(Gabriel.MostrarDados( "Gabriel", "Residencia Americanópolis" ));
+            //Restaurante 
+            restaurante.endereco = "Diadema, 9732";
+            Console.WriteLine(restaurante.MostrarDados());
 
             Console.WriteLine();
 
-            Console.WriteLine("Restaurante: ");
-            Console.WriteLine(restaurante.MostrarDados( "Restaurante Fulano123", "Diadema" ));  
-
-            Console.WriteLine();
-
-            pedido.Cliente = Gabriel.Nome;
+            pedido.Cliente = Gabriel.NomeCliente;
             pedido.Restaurante = restaurante.nomeFantasia;
             Console.WriteLine(pedido.EntregarPedido("Feijoada", "Dinheiro", true ));
         }
